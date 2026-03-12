@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axela Kenya | The Home of Mazda Axela</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <img src="assets/images/logo.png" alt="Axela Kenya Logo">
+            </a>
+            <div class="nav-links">
+                <a href="about.html">About AK</a>
+                <a href="#gallery">Garage</a>
+                <a href="events.html">Events</a>
+                <a href="store.html">Store</a>
+                <a href="join.html" class="btn btn-outline nav-btn">Join AK</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <img src="assets/images/hero_img_red.png" alt="Mazda Red Paint Detail" class="hero-img-1">
+            <img src="assets/images/hero_img_orange.png" alt="Orange Mazda Hatchback" class="hero-img-2">
+            <img src="assets/images/hero_img_group.jpg" alt="Axela Kenya Meetup Group" class="hero-img-3">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <h1 class="hero-headline">
+                <span class="text-accent">Axela Kenya</span><br>
+                The Home of Mazda Axela Owners
+            </h1>
+            <p class="hero-subtext">
+                A community of drivers, builders, and enthusiasts celebrating performance, style, and innovation in Kenya.
+            </p>
+            <div class="hero-buttons">
+                <a href="join.html" class="btn btn-primary">Join the Community</a>
+                <a href="#gallery" class="btn btn-outline">View Gallery</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <p>Scroll to explore</p>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container about-container">
+            <div class="about-text scroll-reveal">
+                <h2 class="section-title">Fueling the <span class="text-accent">Passion</span></h2>
+                <div class="milestone-badge">Celebrating 5 Years (2021-2026)</div>
+                <p>
+                    Established in 2021, Axela Kenya (AK) began with a handful of passionate drivers and has rapidly grown into the nation's premier community for Mazda 3 and Axela enthusiasts. 
+                </p>
+                <p>
+                    We are more than just a car club; we're a brotherhood defined by road trips, high-energy car meets, and a shared admiration for precision engineering. Welcome to a culture driven by movement and mechanical perfection.
+                </p>
+            </div>
+            <div class="about-image scroll-reveal fade-right">
+                <img src="assets/images/fueling_passion.jpg" alt="Overhead View of Axela Kenya Car Meet">
+                <div class="image-accent-border"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Cars / Gallery -->
+    <section class="gallery section-padding bg-darker" id="gallery">
+        <div class="container">
+            <div class="section-header center scroll-reveal">
+                <h2 class="section-title">The <span class="text-accent">Garage</span></h2>
+                <p>Showcasing the finest builds and pure stock perfection within AK.</p>
+            </div>
+            
+            <div class="gallery-filters scroll-reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="hatch">Hatchbacks</button>
+                <button class="filter-btn" data-filter="sedan">Sedans</button>
+                <button class="filter-btn" data-filter="modified">Modified</button>
+                <button class="filter-btn" data-filter="event">Club Events</button>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item hatch modified scroll-reveal">
+                    <img src="assets/images/urban_menace.jpg" alt="Green Mazda Axela with Open Hood">
+                    <div class="item-overlay">
+                        <h3>Urban Menace</h3>
+                        <span>Modified Hatchback</span>
+                    </div>
+                </div>
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item event scroll-reveal delay-1">
+                    <img src="assets/images/meetup_new.jpg" alt="Axela Kenya Club Event at TopKing">
+                    <div class="item-overlay">
+                        <h3>Nairobi Night Meet</h3>
+                        <span>Club Events</span>
+                    </div>
+                </div>
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item sedan scroll-reveal delay-2">
+                    <img src="assets/images/sedan_red2.jpg" alt="Red Mazda 3 Sedan getting washed">
+                    <div class="item-overlay">
+                        <h3>Crimson Sedan</h3>
+                        <span>Sedan</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Activities -->
+    <section class="activities section-padding" id="activities">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2 class="section-title">Our <span class="text-accent">Movement</span></h2>
+            </div>
+            
+            <div class="activities-grid">
+                <div class="activity-card scroll-reveal">
+                    <div class="card-icon"><i class="fas fa-route"></i></div>
+                    <h3>Epic Road Trips</h3>
+                    <p>From the Great Rift Valley to the Coast, we conquer Kenyan roads in convoys that turn heads.</p>
+                </div>
+                <div class="activity-card scroll-reveal delay-1">
+                    <div class="card-icon"><i class="fas fa-flag-checkered"></i></div>
+                    <h3>Track Days</h3>
+                    <p>Pushing the limits of SkyActiv technology in safe, controlled motorsport environments.</p>
+                </div>
+                <div class="activity-card scroll-reveal delay-2">
+                    <div class="card-icon"><i class="fas fa-users"></i></div>
+                    <h3>Garage Meets</h3>
+                    <p>Building bonds over engine bays. Swap tips, see builds, and enjoy the car culture lifestyle.</p>
+                </div>
+                <div class="activity-card scroll-reveal delay-3">
+                    <div class="card-icon"><i class="fas fa-hands-helping"></i></div>
+                    <h3>Charity Drives</h3>
+                    <p>Giving back to our local communities through coordinated donation drives and youth mentorship.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Partners & Features -->
+    <section class="partners section-padding bg-darker">
+        <div class="container center scroll-reveal">
+            <h3 class="minor-title">Trusted by Automotive Leaders</h3>
+            <div class="partners-grid">
+                <div class="partner-logo"><img src="assets/images/logo1.png" alt="Partner Logo 1"></div>
+                <div class="partner-logo"><img src="assets/images/logo2.png" alt="Partner Logo 2"></div>
+                <div class="partner-logo"><img src="assets/images/logo3.png" alt="Partner Logo 3"></div>
+                <div class="partner-logo"><img src="assets/images/logo4.png" alt="Partner Logo 4"></div>
+                <div class="partner-logo"><img src="assets/images/logo5.png" alt="Partner Logo 5"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Preview -->
+    <section class="store section-padding" id="store">
+        <div class="container flex-row">
+            <div class="store-content scroll-reveal">
+                <h2 class="section-title">Rep the <span class="text-accent">Brand</span></h2>
+                <p>Make your car officially yours. Grab the iconic Axela Kenya metal badge, premium window stickers, and official club apparel.</p>
+                <a href="store.html" class="btn btn-primary">Shop Merchandise <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="store-image scroll-reveal fade-right">
+                <img src="assets/images/hoodies2.png" alt="AK Hoodie Merch" class="store-merch-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership section -->
+    <section class="cta section-padding" id="membership">
+        <div class="container center scroll-reveal">
+            <h2 class="section-title">Join Kenya's Fastest Growing Mazda Community</h2>
+            <p class="cta-subtitle">Get access to exclusive events, partner discounts, and a passionate forum of builders.</p>
+            <div class="cta-buttons">
+                <a href="join.html" class="btn btn-primary btn-large">Become a Member</a>
+                <a href="join.html" class="btn btn-outline btn-large">Join the Community</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-darker">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <img src="assets/images/logo.png" alt="Axela Kenya Logo" class="footer-logo">
+                <p>The Home of Mazda Axela Owners in Kenya.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/axelakenya/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/Axelakenya" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/@MalumeMedia" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="store.html">Store</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Community</h3>
+                <ul>
+                    <li><a href="guidelines.html">Club Guidelines</a></li>
+                    <li><a href="#membership">Member Login</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p><i class="fas fa-envelope"></i> info@axelakenya.co.ke</p>
+                <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <p>&copy; 2026 Axela Kenya (AK). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
